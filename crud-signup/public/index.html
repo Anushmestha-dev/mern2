@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1 id="title">Sign Up</h1>
+    <p class="sub">Already a member? <a href="#users">Log In</a></p>
+
+    <div class="field">
+      <input type="email" id="email" placeholder="Email" autocomplete="off" />
+    </div>
+    <div class="field">
+      <input type="password" id="password" placeholder="Password" autocomplete="new-password" />
+    </div>
+
+    <button id="saveBtn">Sign Up</button>
+    <button id="cancelBtn" class="hidden">Cancel</button>
+    <p id="message" class="message"></p>
+
+    <h2 id="users">Registered Users</h2>
+    <ul id="userList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

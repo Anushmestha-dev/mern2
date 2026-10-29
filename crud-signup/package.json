@@ -1,0 +1,22 @@
+{
+  "name": "crud-signup",
+  "version": "1.0.0",
+  "description": "Sign Up page with CRUD on users using HTML, CSS, Express.js, React and REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^4.19.2",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

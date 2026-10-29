@@ -1,0 +1,92 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 16px;
+  background: #fff;
+  font-family: "Raleway", Arial, sans-serif;
+  color: #333;
+}
+
+.card { width: 100%; max-width: 480px; }
+
+h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  font-size: 52px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  margin: 50px 0 0;
+}
+
+.sub { text-align: center; margin: 12px 0 40px; font-size: 18px; }
+.sub a { color: #8b5e3c; text-decoration: none; }
+
+.field { margin-bottom: 36px; }
+.field input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #888;
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: inherit;
+  outline: none;
+  background: transparent;
+}
+.field input:focus { border-bottom-color: #8b5e3c; }
+
+button { font-family: inherit; cursor: pointer; border: none; }
+
+#saveBtn {
+  width: 100%;
+  margin-top: 6px;
+  padding: 16px;
+  background: #8b5e3c;
+  color: #fff;
+  font-size: 18px;
+}
+#saveBtn:hover { background: #724828; }
+
+#cancelBtn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background: #eee;
+  color: #555;
+  font-size: 16px;
+}
+
+.hidden { display: none; }
+
+.message { text-align: center; min-height: 20px; margin: 12px 0 0; color: #d9534f; }
+.message.ok { color: #2e8b57; }
+
+ul { list-style: none; padding: 0; margin: 20px 0 0; }
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 17px;
+  word-break: break-all;
+}
+
+.actions { white-space: nowrap; }
+.actions button { background: none; font-size: 15px; margin-left: 14px; color: #8b5e3c; }
+.actions .delete { color: #d9534f; }
+.actions button:hover { text-decoration: underline; }
+
+.empty { justify-content: center; color: #999; }

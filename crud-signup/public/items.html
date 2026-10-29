@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Items CRUD</title>
+</head>
+<body>
+  <div class="card">
+    <h1>Items</h1>
+    <p class="sub"><span id="userEmail"></span> &middot; <a href="#" id="logoutLink">Log Out</a></p>
+
+    <div class="field">
+      <input type="text" id="itemName" placeholder="Item name" autocomplete="off" />
+    </div>
+    <button id="saveBtn" class="main-btn">Add Item</button>
+    <p id="message" class="message"></p>
+
+    <ul id="itemList"></ul>
+  </div>
+  <script src="items.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Log In</title>
+</head>
+<body>
+  <div class="card">
+    <h1>Log In</h1>
+    <p class="sub">New here? <a href="index.html">Sign Up</a></p>
+
+    <form id="authForm" data-mode="login">
+      <div class="field"><input type="email" id="email" placeholder="Email" required /></div>
+      <div class="field"><input type="password" id="password" placeholder="Password" required /></div>
+      <button type="submit" class="main-btn">Log In</button>
+      <p id="message" class="message"></p>
+    </form>
+  </div>
+  <script src="auth.js"></script>
+</body>
+</html>
